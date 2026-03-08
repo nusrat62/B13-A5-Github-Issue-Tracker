@@ -46,11 +46,6 @@ async function fetchAllIssues() {
         }
     } catch (err) {
         generateDummyData();
-    } finally {
-        setTimeout(() => {
-            renderIssues(allIssuesData);
-            toggleLoader(false);
-        }, 500);
     }
 }
 
