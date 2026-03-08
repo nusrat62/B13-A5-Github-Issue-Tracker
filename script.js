@@ -111,8 +111,7 @@ function renderIssues(issues) {
             </div>
         `;
         
-        card.onclick = () => openModal(issue);
-        grid.appendChild(card);
+   
     });
 }
 
