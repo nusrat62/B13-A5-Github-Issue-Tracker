@@ -40,7 +40,7 @@ async function fetchAllIssues() {
         const result = await res.json();
         
         if (result.success && result.data.length > 0) {
-            allIssuesData =
+            allIssuesData = result.data;
         } else {
             generateDummyData();
         }
