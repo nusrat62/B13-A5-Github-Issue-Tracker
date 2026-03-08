@@ -29,6 +29,8 @@ Example:
 const greet = () => {
   console.log("Hello");
 };
+
+
 5. What are template literals?
 
 Template literals use backticks () and allow embedding variables or expressions inside strings using ${}`.
