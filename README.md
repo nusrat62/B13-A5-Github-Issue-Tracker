@@ -12,6 +12,8 @@ Example:
 
 const arr1 = [1,2,3];
 const arr2 = [...arr1,4,5];
+
+
 3. What is the difference between map(), filter(), and forEach()?
 
 map() returns a new array after transforming elements.
