@@ -78,7 +78,8 @@ function renderIssues(issues) {
         
         const priorityColors = {
             high: 'bg-rose-100 text-rose-600',
-           
+            medium: 'bg-amber-100 text-amber-600',
+            low: 'bg-slate-100 text-slate-500'
         };
 
         const isBug = issue.label === "BUG";
