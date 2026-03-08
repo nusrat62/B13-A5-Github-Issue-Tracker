@@ -4,19 +4,19 @@ const STATUS_STYLES = {
         border: 'border-t-emerald-500',
         dot: 'text-emerald-500',
         bg: 'bg-emerald-50',
-        icon: `<img src="/assets/Open-Status.png" class="w-4 h-4"/>`
+        icon: `<img src="assets/Open-Status.png" class="w-4 h-4"/>`
     },
     closed: {
         border: 'border-t-purple-500', 
         dot: 'text-purple-500',
         bg: 'bg-purple-50',
-        icon: `<img src="/assets/close.png" class="w-4 h-4"/>`
+        icon: `<img src="assets/close.png" class="w-4 h-4"/>`
     },
     aperture: {
         border: 'border-t-blue-500',
         dot: 'text-blue-500',
         bg: 'bg-blue-50',
-        icon: `<img src="/assets/aperture.png" class="w-4 h-4"/>`
+        icon: `<img src="assets/aperture.png" class="w-4 h-4"/>`
     }
 };
 
